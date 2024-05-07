@@ -1,6 +1,6 @@
 const Section6 = () => {
   return (
-    <div className="background bg-auto bg-center bg-no-repea h-[750px] bg-amber-900 flex m-auto ">
+    <div className="background bg-auto bg-center bg-no-repeat h-[750px] bg-amber-900 flex m-auto ">
       <div className="text-amber-50 m-auto flex flex-col gap-5 text-center">
         <span className="font-extrabold text-4xl sm:text-6xl md:text-7xl">
           11,658,467
