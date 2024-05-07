@@ -66,7 +66,7 @@ const Section1 = () => {
                 <img src={card.icon} alt="icon" />{" "}
               </div>
               <div className="font-bold text-xl text-slate-900">{card.header}</div>
-              <div className="font-semibold text-lg text-slate-900">{card.text}</div>
+              <div className="font-normal text-lg text-slate-900">{card.text}</div>
             </div>
           ))}
         </div>

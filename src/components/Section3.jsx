@@ -2,8 +2,9 @@
 
 const Section3 = () => {
   return (
-    <div className="bg-[url('/images/deco.png')]  bg-no-repeat back bg-bottom md:bg-right bg-size2 md:bg-size1 px-4 py-12 md:p-20 md:bg-orange-50 ">
-        <div className=" grid grid-cols-1 grid-rows-2 gap-6 p-0 md:p-20 lg:grid-cols-3 lg:grid-rows-1">
+    <div className="p-20 md:bg-orange-50 "> 
+        <div className="bg-[url('/images/deco.png')]  bg-no-repeat bg-white bg-bottom md:bg-right bg-size2 md:bg-contain  px-4 py-12 md:p-20 shadow-[0px_20px_25px_-5px_rgba(0,0,0,0.1),0px_0px_10px_rgba(0,0,0,0.07)] rounded-[30px]">
+        <div className=" grid grid-cols-1 grid-rows-2 gap-6 lg:grid-cols-3 lg:grid-rows-1">
             <div className="flex flex-col gap-6 col-span-2 items-center lg:items-start">
                 <h2 className="text-center font-extrabold text-3xl md:text-5xl md:text-start">Why join us</h2>
                 <ul className="flex flex-col gap-1">
@@ -32,6 +33,7 @@ const Section3 = () => {
               </div>
             </div>
         </div>
+    </div>
     </div>
   )
 }

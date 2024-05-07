@@ -1,6 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-import flowbite from 'flowbite/plugin';
-// Daha sonra flowbite'ı kullanabilirsiniz
 
 export default {
   content: [
@@ -8,10 +6,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif'],
+      },
+    },
   },
-  plugins: [
-    flowbite,
-    "./node_modules/flowbite/**/*.js"
-]
+  plugins: []
 }

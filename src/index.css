@@ -20,9 +20,6 @@
 .bg-size-90 {
   background-size: 90%;
 }
-.bg-size1 {
-  background-size: 41%;
-}
 .bg-size2 {
   background-size: 114%;
 }
@@ -34,7 +31,6 @@
 .custom-scroll::-webkit-scrollbar {
   display: none;
 }
-
 
 .custom-scroll {
   -ms-overflow-style: none;  

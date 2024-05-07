@@ -155,7 +155,7 @@ const Section4 = () => {
                   </h6>
                 </div>
 
-                <div className="black text-xs font-semibold text-start text-slate-900 leading-5">{sw.text}</div>
+                <div className="black text-s font-normal text-start text-slate-900 leading-5">{sw.text}</div>
 
                 <div className="flex items-center gap-2">
                     <img src={sw.userImage} alt="user" className="w-6 h-6" />

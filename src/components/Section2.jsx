@@ -27,7 +27,7 @@ const Section2 = () => {
         <h2 className="text-2xl font-extrabold text-center text-white md:text-5xl">
           The best of the best
         </h2>
-        <button className="section1-button  border-white w-max md:w-0 m-auto mt-8 text-white md:m-0">
+        <button className="section1-button border-white w-max m-auto mt-8 text-white md:m-0">
           Sign up now
         </button>
       </div>
